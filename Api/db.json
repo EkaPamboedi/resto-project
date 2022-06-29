@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "lisa tabah pratiwi",
+      "email": "lisatebeh@gmail.com",
+      "pasword": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Eka Pamboedi",
+      "email": "ekapamboedi@gmail.com",
+      "pasword": "123456"
+    },
+    {
+      "email": "test@gmail.com",
+      "name": "test",
+      "password": "123123",
+      "id": 3
+    },
+    {
+      "email": "banget sih",
+      "name": "ngeselin",
+      "password": "T_T",
+      "id": 4
+    },
+    {
+      "email": "sadasd",
+      "name": "asdasdq",
+      "password": "asd",
+      "id": 5
+    }
+  ]
+}
