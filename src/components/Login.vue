@@ -22,7 +22,7 @@ export default{
 }
    
 </script>
-
+s
 <style>
 .logo{
     width:200px;
