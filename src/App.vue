@@ -1,14 +1,13 @@
 <template>
-  <SignUp />
-  </template>
+<router-view />
+<!-- Helloo -->
+<!-- <HomePage /> -->
+</template>
 
 <script>
-  import SignUp from './components/SignUp.vue'
   export default {
     name: 'App',
-    components:{
-      SignUp
-    }
+    
   }
 </script>
 

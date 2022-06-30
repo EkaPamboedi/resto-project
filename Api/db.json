@@ -29,6 +29,24 @@
       "name": "asdasdq",
       "password": "asd",
       "id": 5
+    },
+    {
+      "email": "test1@gmail.com",
+      "name": "test1",
+      "password": "test123",
+      "id": 6
+    },
+    {
+      "email": "",
+      "name": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "email": "spiderman@dah.com",
+      "name": "spiderman",
+      "password": "123456",
+      "id": 8
     }
   ]
 }

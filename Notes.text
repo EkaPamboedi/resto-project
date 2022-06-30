@@ -1,0 +1,24 @@
+#What i learned so far
+#EPS1-5
+#Learning hos to use Vue like installation flow and using API json server.
+not fully understand, but there are 2 main ways to create vue. 
+    1. with SFC(Single File Component)
+    2. APIs (There are 2 ways with too LOL).
+        - Options API(data,mounted,methods)
+        - Compostion API 
+we'd likely use the APis Styles to develop projects rather than SFC for singgle page.
+
+#EPS 6-8
+#Making Signup Page that can store data to fake API db.json with json server.
+
+#Create logic redirect to the homepage by checking the storage from localStorage.
+
+*localStorage is a web storage object that allows JavaScript sites and 
+apps to keep key-value pairs in a web browser with no expiration date.
+
+#EPS 9
+
+#-Hint-#
+SFC is Single File Components that used to creat vue project.
+Methods,Data, in vue are ways to use API logic
+export default:

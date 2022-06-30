@@ -2,7 +2,6 @@
 <img class="logo" src="../assets/RestoLogo-removebg-preview.png"/>
 <div class="register">
 <h1>Sign Up</h1>
-    <!-- <input type="hidden" name="" id="" placeholder="Enter Name" /> -->
     <input type="text" v-model="name" placeholder="Enter Name" />
     <input type="text" v-model="email" placeholder="Enter Email" />
     <input type="password" v-model="password" placeholder="Enter Password" />
@@ -36,11 +35,19 @@ export default{
             
             console.warn(result);
             if(result.status == 201){
-                alert("Sign-up Done.");
-                localStorage.setItem("User-info", JSON.stringify(result.data));
+                
+                localStorage.setItem("User-info", JSON.stringify(result.data))
+                this.$router.push({name:"HomePage"})
             }
 
         }
+    },
+    mounted(){
+        let user  = localStorage.getItem('User-info');
+        if(user){
+            this.$router.push({name:"HomePage"})
+        }
+
     }
 }
 </script>
