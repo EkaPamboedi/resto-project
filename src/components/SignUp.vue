@@ -50,8 +50,8 @@ export default{
         }
     },
     mounted(){
-        let user  = localStorage.getItem('User-info');
-        if(user){
+        let users  = localStorage.getItem('User-info');
+        if(users){
             this.$router.push({name:"HomePage"})
         }
 

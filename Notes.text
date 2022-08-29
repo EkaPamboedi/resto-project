@@ -16,7 +16,20 @@ we'd likely use the APis Styles to develop projects rather than SFC for singgle 
 *localStorage is a web storage object that allows JavaScript sites and 
 apps to keep key-value pairs in a web browser with no expiration date.
 
-#EPS 9
+#EPS 9 - 10
+
+#Logic for login and sign-up that connected to the local storage from the server.
+
+#Creating Header component to the HomePage and make some css
+
+#Eps 11 - 12
+#Adding Header component to the Homepage
+#Create Logout system
+
+#Eps 13 and 14
+- Adding and Update Resto Components
+- Showing "name" from users localstorage
+
 
 #-Hint-#
 SFC is Single File Components that used to creat vue project.

@@ -2,15 +2,15 @@
   "users": [
     {
       "id": 1,
-      "name": "lisa tabah pratiwi",
+      "name": "Lisa Tabah Pratiwi",
       "email": "lisatebeh@gmail.com",
-      "pasword": "123456"
+      "password": "123456"
     },
     {
       "id": 2,
       "name": "Eka Pamboedi",
       "email": "ekapamboedi@gmail.com",
-      "pasword": "123456"
+      "password": "123456"
     },
     {
       "email": "test@gmail.com",
@@ -47,6 +47,80 @@
       "name": "spiderman",
       "password": "123456",
       "id": 8
+    },
+    {
+      "email": "test@gmail.com",
+      "name": "test",
+      "password": "test",
+      "id": 9
+    },
+    {
+      "email": "Daydream@gmail.com",
+      "name": "Ciggarate",
+      "password": "Lisarizky505",
+      "id": 10
+    },
+    {
+      "email": "Lisa2gmail.com",
+      "name": "Lisa",
+      "password": "123123",
+      "id": 11
+    },
+    {
+      "email": "Doto@gmail.com",
+      "name": "Doto",
+      "password": "123123",
+      "id": 12
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "BurgerKing",
+      "contact": "0821",
+      "address": "Tebet"
+    },
+    {
+      "id": 6,
+      "name": "MCD",
+      "contact": "0821",
+      "address": "Tebetdalam"
+    },
+    {
+      "id": "4",
+      "name": "Test2",
+      "contact": "Test2",
+      "address": "Test2"
+    },
+    {
+      "name": "zxzzx",
+      "contact": "zxxzxz",
+      "address": "zxzx",
+      "id": 7
+    },
+    {
+      "name": "zxzzx",
+      "contact": "zxxzxz",
+      "address": "zxzx",
+      "id": 8
+    },
+    {
+      "name": "zxzzx",
+      "contact": "zxxzxz",
+      "address": "zxzx",
+      "id": 9
+    },
+    {
+      "name": "zxzzx",
+      "contact": "zxxzxz",
+      "address": "zxzx",
+      "id": 10
+    },
+    {
+      "name": "TEst4",
+      "contact": "Test4",
+      "address": "Test4",
+      "id": 11
     }
   ]
 }

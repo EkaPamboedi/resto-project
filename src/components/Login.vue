@@ -4,7 +4,7 @@
 <h1>Login Here</h1>
     <input type="text" v-model="email" placeholder="Enter Email" />
     <input type="password" v-model="password" placeholder="Enter Password" />
-    <button v-on:click="LoginPage"> Sign in</button>
+    <button v-on:click="Login"> Sign in</button>
     <p>
     Don't have an account? 
     <router-link to="/sign-up">
@@ -16,13 +16,29 @@
 </template>
 
 <script>
-// import axios from 'axios'
+import axios from 'axios'
 export default{
-    name:'LoginPage'
-}
+    name:'LoginPage',
+    data(){
+        return{
+            email:'',
+            password:''
+        }
+    },
+    methods:{
+     async Login(){
+        let result = await axios.get(`http://localhost:3000/users?email=${this.email}&password=${this.password}`)
+            if(result.status == 200 && result.data.length > 0){
+                localStorage.setItem("User-info", JSON.stringify(result.data))
+                this.$router.push({name:"HomePage"})
+            }
+                console.warn(result)
+        }
+            }               
+    };
    
 </script>
-s
+
 <style>
 .logo{
     width:200px;

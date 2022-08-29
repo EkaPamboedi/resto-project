@@ -5,6 +5,16 @@
 </template>
 
 <script>
+// import Vue from 'vue'
+// import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+// Import Bootstrap and BootstrapVue CSS files (order is important)
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+// // Make BootstrapVue available throughout your project
+// Vue.use(BootstrapVue)
+// // Optionally install the BootstrapVue icon components plugin
+// Vue.use(IconsPlugin)
   export default {
     name: 'App',
   }
@@ -17,7 +27,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body{
+  padding:0;
+  margin:0;
 }
 
 .logo{
@@ -27,7 +40,7 @@
 .register, .login{
     margin-top: -50px;
 }
-.register input , .login input {
+.register input , .login input , .AddResto input{
     width:300px;
     height: 40px;
     padding-left: 20px;
@@ -37,7 +50,7 @@
     margin-left: auto;
     border: 1px solid skyblue;
 }
-.register button , .login button {
+.register button , .login button , .AddResto button  {
     margin-top: 0%;
     border: 1px solid skyblue;
     height: 30px;
